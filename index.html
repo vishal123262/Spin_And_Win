@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spin n Win !</title>
+	<link rel="icon" href="Assets/favicon.png">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        
+        body
+        {
+            background-image: url(Assets/Page1bg.png);
+            background-size:cover;
+            height: 100%;
+            width: auto;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        #onlytext
+        {
+            text-align: center;
+            padding-top: 200px;
+            font-size: 700%;
+            color: white;
+        }
+        #button
+        { 
+  	         margin: 30px auto;
+             text-align: center;
+             font-weight: 1000;
+	         padding : 18px 30px;
+	         font-size: 200%;
+	         border: 2px solid #fff;
+             border-radius: 50px;
+             text-decoration: none;
+	         color: #fff;
+	         transition: 0.8s ease;
+             width: 200px;
+        }
+        #button:hover
+        {
+            background-color: #fff;
+	color: #fff;
+	font-weight: 800;
+	transition: 0.2s ease;
+	background-image: linear-gradient(to left,#1a378a ,#3d6fff);
+	border: 2px solid #2b5add;
+        }
+        #sound
+        {
+            position: absolute;
+            opacity: 1%;
+        }
+    </style>
+</head>
+    <body>
+        
+        <audio id="sound" autoplay loop controls>
+            <source src="Assets/page1.mp3" type="audio/mp3">
+        </audio>
+        <div id="onlytext">
+            Spin n Win !
+        </div>
+        <div id="button"><a  style="color: #fff; text-decoration: none"href="Page1.html">Tap to play</a></div>
+        
+    </body>
